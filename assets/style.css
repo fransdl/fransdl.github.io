@@ -1,0 +1,190 @@
+/* Navbar */
+.navbar {
+  background-color: white;
+}
+.navbar-brand {
+  font-family: "Righteous", cursive;
+  font-size: 30px;
+  color: #293241 !important;
+}
+
+.navbar-nav {
+  font-family: "Montserrat", sans-serif;
+}
+
+.navbar-nav .nav-link {
+  color: #1b3a4b !important;
+}
+
+.navbar-nav .btn {
+  font-family: "Montserrat", sans-serif;
+  /* background-color: #20a39e; */
+  border-radius: 10px;
+  color: #1b3a4b;
+  border: 1px solid #1b3a4b;
+}
+
+.navbar-nav .btn:hover {
+  border: 1px solid white;
+  color: white;
+}
+
+/* Card */
+.card {
+  background-color: #ee6c4d;
+  color: #1b3a4b;
+  height: 440px;
+  border-radius: 0px;
+  font-family: "Montserrat", sans-serif;
+  line-height: 40px;
+}
+
+.card h1 {
+  margin-top: 120px;
+  font-size: 40px;
+}
+
+.card p {
+  font-family: "Righteous", cursive;
+  font-size: 60px;
+}
+
+.card .btn {
+  margin-top: 30px;
+  background-color: white;
+  border-radius: 20px;
+  padding: 8px 15px;
+}
+
+/* Info */
+.info {
+  background-color: white;
+  font-family: "Montserrat", sans-serif;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
+  margin-top: -75px;
+  z-index: 1;
+  padding: 20px 30px;
+}
+
+.info img {
+  margin-right: 10px;
+}
+
+.info h2 {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.info p {
+  font-size: 14px;
+}
+
+/* Carousel */
+.carousel {
+  margin-top: 70px;
+}
+
+.carousel h1 {
+  font-family: "Montserrat", sans-serif;
+  color: #1b3a4b;
+}
+
+/* About */
+.about {
+  margin-top: 80px;
+  font-family: "Montserrat", sans-serif;
+  color: #1b3a4b;
+}
+
+.about p {
+  font-size: 14px;
+}
+
+.about .btn {
+  padding: 8px 25px;
+  border-radius: 20px;
+  border: 1px solid #ee6c4d;
+  color: #ee6c4d;
+  font-size: 14px;
+}
+
+.about .btn:hover {
+  background-color: #ee6c4d;
+  color: white;
+}
+
+/* Footer */
+.footer {
+  margin-top: 100px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+}
+
+/* Desktop Version */
+@media (min-width: 1200px) {
+  .navbar {
+    background-color: #ee6c4d;
+    display: block;
+  }
+  .navbar-brand {
+    font-size: 30px;
+  }
+
+  .navbar-nav {
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+    font-family: 5px !important;
+  }
+
+  .navbar-nav .nav-link:hover::after {
+    content: "";
+    display: block;
+    border-bottom: 3px solid #3d5a80;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 5px;
+    margin-bottom: -8px;
+  }
+
+  .navbar-nav .btn {
+    border-radius: 20px;
+    text-transform: uppercase;
+    padding: 7px 25px;
+  }
+
+  .card {
+    height: 540px;
+    margin-top: -72px;
+  }
+
+  .card h1 {
+    margin-top: 180px;
+    font-size: 40px;
+  }
+
+  .info img {
+    margin-left: 50px;
+  }
+
+  .carousel {
+    margin-top: 200px;
+  }
+
+  .carousel .carousel-item {
+    border: 2px solid #ee6c4d;
+  }
+
+  .carousel h1 {
+    font-family: "Montserrat", sans-serif;
+    color: #1b3a4b;
+    margin-bottom: 50px;
+  }
+
+  .about h1 {
+    margin-bottom: 40px;
+  }
+
+  .footer {
+    margin-top: 170px;
+  }
+}
